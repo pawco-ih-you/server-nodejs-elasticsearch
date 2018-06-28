@@ -1,0 +1,20 @@
+{
+  "name": "server-nodejs-elasticsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --color --notify --coverage --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^15.0.0",
+    "jest": "23.2.0"
+  },
+  "devDependencies": {
+    "@types/elasticsearch": "^5.0.24",
+    "@types/jest": "23.1.3"
+  }
+}
